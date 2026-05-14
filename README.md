@@ -1,7 +1,7 @@
 # In-vivo evidence for increased tau deposition in temporal lobe epilepsy  
 
 [![GitHub stars](https://img.shields.io/github/stars/MICA-MNI/2025_in-vivo_tauPET-mk6240_TLE.svg?style=flat&label=%E2%AD%90%EF%B8%8F%20stars&color=brightgreen)](https://github.com/MICA-MNI/2025_in-vivo_tauPET-mk6240_TLE/stargazers)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 **Cite:** 
 > *[Raúl R. Cruces](mailto:raul.rodriguezcruces@mcgill.ca), Jack Lam, Thaera Arafat, Jessica Royer, Judy Chen, Ella Sahlas, Arielle Dascal, Daniel Mendelson, Raluca Pana, Robert Hopewell, Chris Hung-Hsin Hsiao, Gassan Massarweh, Jean-Paul Soucy, Pedro Rosa-Neto, Marie-Christine Guiot, Sylvia Villeneuve, Lorenzo Caciagli, Matthias J. Koepp, Andrea Bernasconi, Neda Ladbon-Bernasconi, [Boris C. Bernhardt](mailto:boris.bernhardt@mcgill.ca)*. (2026). In-vivo evidence for increased tau deposition in temporal lobe epilepsy ... 
