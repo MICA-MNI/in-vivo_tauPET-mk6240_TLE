@@ -131,1112 +131,67 @@ which are all components of the SUV calculation, cancel each other out.
 
 # Mean and Std
 
-<table style="NAborder-bottom: 0; color: black; " class="table">
-<thead>
-<tr>
-<th style="text-align:left;">
-Demographics
-</th>
-<th style="text-align:center;">
-Patient <br>N = 41
-</th>
-<th style="text-align:center;">
-Healthy <br>N = 35
-</th>
-<th style="text-align:center;">
-Statistic
-</th>
-<th style="text-align:center;">
-p-value
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-age
-</td>
-<td style="text-align:center;">
-36±12
-</td>
-<td style="text-align:center;">
-33±7
-</td>
-<td style="text-align:center;">
-1.47
-</td>
-<td style="text-align:center;">
-0.15
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-mk6240.mean
-</td>
-<td style="text-align:center;">
-1.14±0.10
-</td>
-<td style="text-align:center;">
-1.06±0.11
-</td>
-<td style="text-align:center;">
-3.29
-</td>
-<td style="text-align:center;">
-0.002
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-mk6240.sig
-</td>
-<td style="text-align:center;">
-1.27±0.13
-</td>
-<td style="text-align:center;">
-1.12±0.13
-</td>
-<td style="text-align:center;">
-5.05
-</td>
-<td style="text-align:center;">
-\<0.001
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-mk6240.mean.ipsi
-</td>
-<td style="text-align:center;">
-1.15±0.10
-</td>
-<td style="text-align:center;">
-1.07±0.11
-</td>
-<td style="text-align:center;">
-3.16
-</td>
-<td style="text-align:center;">
-0.002
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-mk6240.mean.contra
-</td>
-<td style="text-align:center;">
-1.13±0.11
-</td>
-<td style="text-align:center;">
-1.05±0.11
-</td>
-<td style="text-align:center;">
-3.25
-</td>
-<td style="text-align:center;">
-0.002
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-mk6240.sig.ipsi
-</td>
-<td style="text-align:center;">
-1.29±0.15
-</td>
-<td style="text-align:center;">
-1.14±0.12
-</td>
-<td style="text-align:center;">
-4.76
-</td>
-<td style="text-align:center;">
-\<0.001
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-mk6240.sig.contra
-</td>
-<td style="text-align:center;">
-1.25±0.15
-</td>
-<td style="text-align:center;">
-1.09±0.13
-</td>
-<td style="text-align:center;">
-4.92
-</td>
-<td style="text-align:center;">
-\<0.001
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-mk6240.Tdiff
-</td>
-<td style="text-align:center;">
-5±8
-</td>
-<td style="text-align:center;">
-5±11
-</td>
-<td style="text-align:center;">
-0.305
-</td>
-<td style="text-align:center;">
-0.8
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-mk6240.mri.Tdiff
-</td>
-<td style="text-align:center;">
-13±16
-</td>
-<td style="text-align:center;">
-13±15
-</td>
-<td style="text-align:center;">
--0.017
-</td>
-<td style="text-align:center;">
-\>0.9
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-EpiTrack
-</td>
-<td style="text-align:center;">
-34.1±4.2
-</td>
-<td style="text-align:center;">
-36.8±3.3
-</td>
-<td style="text-align:center;">
--3.04
-</td>
-<td style="text-align:center;">
-0.003
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Episodic
-</td>
-<td style="text-align:center;">
-47±22
-</td>
-<td style="text-align:center;">
-71±20
-</td>
-<td style="text-align:center;">
--4.63
-</td>
-<td style="text-align:center;">
-\<0.001
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Semantic
-</td>
-<td style="text-align:center;">
-0.82±0.08
-</td>
-<td style="text-align:center;">
-0.83±0.10
-</td>
-<td style="text-align:center;">
--0.293
-</td>
-<td style="text-align:center;">
-0.8
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-hip.ipsi
-</td>
-<td style="text-align:center;">
--0.67±1.43
-</td>
-<td style="text-align:center;">
-0.00±1.00
-</td>
-<td style="text-align:center;">
--2.38
-</td>
-<td style="text-align:center;">
-0.020
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-hip.cntr
-</td>
-<td style="text-align:center;">
--0.06±1.05
-</td>
-<td style="text-align:center;">
-0.00±1.00
-</td>
-<td style="text-align:center;">
--0.245
-</td>
-<td style="text-align:center;">
-0.8
-</td>
-</tr>
-</tbody>
-<tfoot>
-<tr>
-<td style="padding: 0; " colspan="100%">
-<sup>1</sup> Mean±SD
-</td>
-</tr>
-<tr>
-<td style="padding: 0; " colspan="100%">
-<sup>2</sup> Welch Two Sample t-test
-</td>
-</tr>
-</tfoot>
-</table>
+| **Demographics**   | **Patient** N = 41 | **Healthy** N = 35 | **Statistic** | **p-value** |
+|:-------------------|:------------------:|:------------------:|:-------------:|:-----------:|
+| age                |       36±12        |        33±7        |     1.47      |    0.15     |
+| mk6240.mean        |     1.14±0.10      |     1.06±0.11      |     3.29      |    0.002    |
+| mk6240.sig         |     1.27±0.13      |     1.12±0.13      |     5.05      |   \<0.001   |
+| mk6240.mean.ipsi   |     1.15±0.10      |     1.07±0.11      |     3.16      |    0.002    |
+| mk6240.mean.contra |     1.13±0.11      |     1.05±0.11      |     3.25      |    0.002    |
+| mk6240.sig.ipsi    |     1.29±0.15      |     1.14±0.12      |     4.76      |   \<0.001   |
+| mk6240.sig.contra  |     1.25±0.15      |     1.09±0.13      |     4.92      |   \<0.001   |
+| mk6240.Tdiff       |        5±8         |        5±11        |     0.305     |     0.8     |
+| mk6240.mri.Tdiff   |       13±16        |       13±15        |    -0.017     |    \>0.9    |
+| EpiTrack           |      34.1±4.2      |      36.8±3.3      |     -3.04     |    0.003    |
+| Episodic           |       47±22        |       71±20        |     -4.63     |   \<0.001   |
+| Semantic           |     0.82±0.08      |     0.83±0.10      |    -0.293     |     0.8     |
+| hip.ipsi           |     -0.67±1.43     |     0.00±1.00      |     -2.38     |    0.020    |
+| hip.cntr           |     -0.06±1.05     |     0.00±1.00      |    -0.245     |     0.8     |
 
 ## Sex distribution by group and session
 
-<div id="himvsjirdr" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#himvsjirdr table {
-  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-&#10;#himvsjirdr thead, #himvsjirdr tbody, #himvsjirdr tfoot, #himvsjirdr tr, #himvsjirdr td, #himvsjirdr th {
-  border-style: none;
-}
-&#10;#himvsjirdr p {
-  margin: 0;
-  padding: 0;
-}
-&#10;#himvsjirdr .gt_table {
-  display: table;
-  border-collapse: collapse;
-  line-height: normal;
-  margin-left: auto;
-  margin-right: auto;
-  color: #333333;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  background-color: #FFFFFF;
-  width: auto;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #A8A8A8;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #A8A8A8;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-}
-&#10;#himvsjirdr .gt_caption {
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-&#10;#himvsjirdr .gt_title {
-  color: #333333;
-  font-size: 125%;
-  font-weight: initial;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-color: #FFFFFF;
-  border-bottom-width: 0;
-}
-&#10;#himvsjirdr .gt_subtitle {
-  color: #333333;
-  font-size: 85%;
-  font-weight: initial;
-  padding-top: 3px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-color: #FFFFFF;
-  border-top-width: 0;
-}
-&#10;#himvsjirdr .gt_heading {
-  background-color: #FFFFFF;
-  text-align: center;
-  border-bottom-color: #FFFFFF;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-&#10;#himvsjirdr .gt_bottom_border {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-&#10;#himvsjirdr .gt_col_headings {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-&#10;#himvsjirdr .gt_col_heading {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 6px;
-  padding-left: 5px;
-  padding-right: 5px;
-  overflow-x: hidden;
-}
-&#10;#himvsjirdr .gt_column_spanner_outer {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-&#10;#himvsjirdr .gt_column_spanner_outer:first-child {
-  padding-left: 0;
-}
-&#10;#himvsjirdr .gt_column_spanner_outer:last-child {
-  padding-right: 0;
-}
-&#10;#himvsjirdr .gt_column_spanner {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  overflow-x: hidden;
-  display: inline-block;
-  width: 100%;
-}
-&#10;#himvsjirdr .gt_spanner_row {
-  border-bottom-style: hidden;
-}
-&#10;#himvsjirdr .gt_group_heading {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  text-align: left;
-}
-&#10;#himvsjirdr .gt_empty_group_heading {
-  padding: 0.5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: middle;
-}
-&#10;#himvsjirdr .gt_from_md > :first-child {
-  margin-top: 0;
-}
-&#10;#himvsjirdr .gt_from_md > :last-child {
-  margin-bottom: 0;
-}
-&#10;#himvsjirdr .gt_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin: 10px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  overflow-x: hidden;
-}
-&#10;#himvsjirdr .gt_stub {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-&#10;#himvsjirdr .gt_stub_row_group {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-  vertical-align: top;
-}
-&#10;#himvsjirdr .gt_row_group_first td {
-  border-top-width: 2px;
-}
-&#10;#himvsjirdr .gt_row_group_first th {
-  border-top-width: 2px;
-}
-&#10;#himvsjirdr .gt_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-&#10;#himvsjirdr .gt_first_summary_row {
-  border-top-style: solid;
-  border-top-color: #D3D3D3;
-}
-&#10;#himvsjirdr .gt_first_summary_row.thick {
-  border-top-width: 2px;
-}
-&#10;#himvsjirdr .gt_last_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-&#10;#himvsjirdr .gt_grand_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-&#10;#himvsjirdr .gt_first_grand_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-style: double;
-  border-top-width: 6px;
-  border-top-color: #D3D3D3;
-}
-&#10;#himvsjirdr .gt_last_grand_summary_row_top {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: double;
-  border-bottom-width: 6px;
-  border-bottom-color: #D3D3D3;
-}
-&#10;#himvsjirdr .gt_striped {
-  background-color: rgba(128, 128, 128, 0.05);
-}
-&#10;#himvsjirdr .gt_table_body {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-&#10;#himvsjirdr .gt_footnotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-&#10;#himvsjirdr .gt_footnote {
-  margin: 0px;
-  font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-&#10;#himvsjirdr .gt_sourcenotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-&#10;#himvsjirdr .gt_sourcenote {
-  font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-&#10;#himvsjirdr .gt_left {
-  text-align: left;
-}
-&#10;#himvsjirdr .gt_center {
-  text-align: center;
-}
-&#10;#himvsjirdr .gt_right {
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-}
-&#10;#himvsjirdr .gt_font_normal {
-  font-weight: normal;
-}
-&#10;#himvsjirdr .gt_font_bold {
-  font-weight: bold;
-}
-&#10;#himvsjirdr .gt_font_italic {
-  font-style: italic;
-}
-&#10;#himvsjirdr .gt_super {
-  font-size: 65%;
-}
-&#10;#himvsjirdr .gt_footnote_marks {
-  font-size: 75%;
-  vertical-align: 0.4em;
-  position: initial;
-}
-&#10;#himvsjirdr .gt_asterisk {
-  font-size: 100%;
-  vertical-align: 0;
-}
-&#10;#himvsjirdr .gt_indent_1 {
-  text-indent: 5px;
-}
-&#10;#himvsjirdr .gt_indent_2 {
-  text-indent: 10px;
-}
-&#10;#himvsjirdr .gt_indent_3 {
-  text-indent: 15px;
-}
-&#10;#himvsjirdr .gt_indent_4 {
-  text-indent: 20px;
-}
-&#10;#himvsjirdr .gt_indent_5 {
-  text-indent: 25px;
-}
-&#10;#himvsjirdr .katex-display {
-  display: inline-flex !important;
-  margin-bottom: 0.75em !important;
-}
-&#10;#himvsjirdr div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
-  height: 0px !important;
-}
-</style>
-<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
-  <thead>
-    <tr class="gt_col_headings gt_spanner_row">
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="2" colspan="1" scope="col" id="&lt;span class='gt_from_md'&gt;&lt;strong&gt;Characteristic&lt;/strong&gt;&lt;/span&gt;"><span class='gt_from_md'><strong>Characteristic</strong></span></th>
-      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="2" scope="colgroup" id="&lt;span class='gt_from_md'&gt;&lt;strong&gt;Patient&lt;/strong&gt;&lt;/span&gt;">
-        <span class="gt_column_spanner"><span class='gt_from_md'><strong>Patient</strong></span></span>
-      </th>
-      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="2" scope="colgroup" id="&lt;span class='gt_from_md'&gt;&lt;strong&gt;Healthy&lt;/strong&gt;&lt;/span&gt;">
-        <span class="gt_column_spanner"><span class='gt_from_md'><strong>Healthy</strong></span></span>
-      </th>
-    </tr>
-    <tr class="gt_col_headings">
-      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;span class='gt_from_md'&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;br /&gt;&#10;N = 28&lt;/span&gt;&lt;span class=&quot;gt_footnote_marks&quot; style=&quot;white-space:nowrap;font-style:italic;font-weight:normal;line-height: 0;&quot;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/span&gt;"><span class='gt_from_md'><strong>1</strong><br />
-N = 28</span><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;line-height: 0;"><sup>1</sup></span></th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;span class='gt_from_md'&gt;&lt;strong&gt;2&lt;/strong&gt;&lt;br /&gt;&#10;N = 13&lt;/span&gt;&lt;span class=&quot;gt_footnote_marks&quot; style=&quot;white-space:nowrap;font-style:italic;font-weight:normal;line-height: 0;&quot;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/span&gt;"><span class='gt_from_md'><strong>2</strong><br />
-N = 13</span><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;line-height: 0;"><sup>1</sup></span></th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;span class='gt_from_md'&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;br /&gt;&#10;N = 28&lt;/span&gt;&lt;span class=&quot;gt_footnote_marks&quot; style=&quot;white-space:nowrap;font-style:italic;font-weight:normal;line-height: 0;&quot;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/span&gt;"><span class='gt_from_md'><strong>1</strong><br />
-N = 28</span><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;line-height: 0;"><sup>1</sup></span></th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;span class='gt_from_md'&gt;&lt;strong&gt;2&lt;/strong&gt;&lt;br /&gt;&#10;N = 7&lt;/span&gt;&lt;span class=&quot;gt_footnote_marks&quot; style=&quot;white-space:nowrap;font-style:italic;font-weight:normal;line-height: 0;&quot;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/span&gt;"><span class='gt_from_md'><strong>2</strong><br />
-N = 7</span><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;line-height: 0;"><sup>1</sup></span></th>
-    </tr>
-  </thead>
-  <tbody class="gt_table_body">
-    <tr><td headers="label" class="gt_row gt_left">sex</td>
-<td headers="stat_1_1" class="gt_row gt_center"><br /></td>
-<td headers="stat_2_1" class="gt_row gt_center"><br /></td>
-<td headers="stat_1_2" class="gt_row gt_center"><br /></td>
-<td headers="stat_2_2" class="gt_row gt_center"><br /></td></tr>
-    <tr><td headers="label" class="gt_row gt_left">    F</td>
-<td headers="stat_1_1" class="gt_row gt_center">14</td>
-<td headers="stat_2_1" class="gt_row gt_center">4</td>
-<td headers="stat_1_2" class="gt_row gt_center">14</td>
-<td headers="stat_2_2" class="gt_row gt_center">2</td></tr>
-    <tr><td headers="label" class="gt_row gt_left">    M</td>
-<td headers="stat_1_1" class="gt_row gt_center">14</td>
-<td headers="stat_2_1" class="gt_row gt_center">9</td>
-<td headers="stat_1_2" class="gt_row gt_center">14</td>
-<td headers="stat_2_2" class="gt_row gt_center">5</td></tr>
-    <tr><td headers="label" class="gt_row gt_left">handedness</td>
-<td headers="stat_1_1" class="gt_row gt_center"><br /></td>
-<td headers="stat_2_1" class="gt_row gt_center"><br /></td>
-<td headers="stat_1_2" class="gt_row gt_center"><br /></td>
-<td headers="stat_2_2" class="gt_row gt_center"><br /></td></tr>
-    <tr><td headers="label" class="gt_row gt_left">    L</td>
-<td headers="stat_1_1" class="gt_row gt_center">2</td>
-<td headers="stat_2_1" class="gt_row gt_center">2</td>
-<td headers="stat_1_2" class="gt_row gt_center">2</td>
-<td headers="stat_2_2" class="gt_row gt_center">1</td></tr>
-    <tr><td headers="label" class="gt_row gt_left">    R</td>
-<td headers="stat_1_1" class="gt_row gt_center">26</td>
-<td headers="stat_2_1" class="gt_row gt_center">11</td>
-<td headers="stat_1_2" class="gt_row gt_center">26</td>
-<td headers="stat_2_2" class="gt_row gt_center">6</td></tr>
-    <tr><td headers="label" class="gt_row gt_left">age</td>
-<td headers="stat_1_1" class="gt_row gt_center">37±12</td>
-<td headers="stat_2_1" class="gt_row gt_center">36±11</td>
-<td headers="stat_1_2" class="gt_row gt_center">33±8</td>
-<td headers="stat_2_2" class="gt_row gt_center">35±3</td></tr>
-    <tr><td headers="label" class="gt_row gt_left">mk6240.Tdiff</td>
-<td headers="stat_1_1" class="gt_row gt_center">0±0</td>
-<td headers="stat_2_1" class="gt_row gt_center">17±4</td>
-<td headers="stat_1_2" class="gt_row gt_center">0±0</td>
-<td headers="stat_2_2" class="gt_row gt_center">23±12</td></tr>
-  </tbody>
-  &#10;  <tfoot class="gt_footnotes">
-    <tr>
-      <td class="gt_footnote" colspan="5"><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;line-height: 0;"><sup>1</sup></span> <span class='gt_from_md'>n; Mean±SD</span></td>
-    </tr>
-  </tfoot>
-</table>
-</div>
+| **Characteristic** | **1** N = 28 | **2** N = 13 | **1** N = 28 | **2** N = 7 |
+|:-------------------|:------------:|:------------:|:------------:|:-----------:|
+| sex                |              |              |              |             |
+| F                  |      14      |      4       |      14      |      2      |
+| M                  |      14      |      9       |      14      |      5      |
+| handedness         |              |              |              |             |
+| L                  |      2       |      2       |      2       |      1      |
+| R                  |      26      |      11      |      26      |      6      |
+| age                |    37±12     |    36±11     |     33±8     |    35±3     |
+| mk6240.Tdiff       |     0±0      |     17±4     |     0±0      |    23±12    |
 
-## Clinical characteristics of patients
+## Clinical characteristics of patients by MK6240 session
 
-<table style="NAborder-bottom: 0; color: black; " class="table">
-<thead>
-<tr>
-<th style="text-align:left;">
-Patients
-</th>
-<th style="text-align:center;">
-1 <br>N = 28
-</th>
-<th style="text-align:center;">
-2 <br>N = 13
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-duration
-</td>
-<td style="text-align:center;">
-15.3±11.5
-</td>
-<td style="text-align:center;">
-12.2±8.7
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-onset
-</td>
-<td style="text-align:center;">
-21±14
-</td>
-<td style="text-align:center;">
-24±17
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-origin
-</td>
-<td style="text-align:center;">
-</td>
-<td style="text-align:center;">
-</td>
-</tr>
-<tr>
-<td style="text-align:left;padding-left: 2em;" indentlevel="1">
-mTLE
-</td>
-<td style="text-align:center;">
-12 (43%)
-</td>
-<td style="text-align:center;">
-7 (54%)
-</td>
-</tr>
-<tr>
-<td style="text-align:left;padding-left: 2em;" indentlevel="1">
-TLE
-</td>
-<td style="text-align:center;">
-15 (54%)
-</td>
-<td style="text-align:center;">
-6 (46%)
-</td>
-</tr>
-<tr>
-<td style="text-align:left;padding-left: 2em;" indentlevel="1">
-unclear
-</td>
-<td style="text-align:center;">
-1 (3.6%)
-</td>
-<td style="text-align:center;">
-0 (0%)
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-lateralization
-</td>
-<td style="text-align:center;">
-</td>
-<td style="text-align:center;">
-</td>
-</tr>
-<tr>
-<td style="text-align:left;padding-left: 2em;" indentlevel="1">
-BL
-</td>
-<td style="text-align:center;">
-2 (7.1%)
-</td>
-<td style="text-align:center;">
-0 (0%)
-</td>
-</tr>
-<tr>
-<td style="text-align:left;padding-left: 2em;" indentlevel="1">
-L
-</td>
-<td style="text-align:center;">
-13 (46%)
-</td>
-<td style="text-align:center;">
-7 (54%)
-</td>
-</tr>
-<tr>
-<td style="text-align:left;padding-left: 2em;" indentlevel="1">
-R
-</td>
-<td style="text-align:center;">
-12 (43%)
-</td>
-<td style="text-align:center;">
-5 (38%)
-</td>
-</tr>
-<tr>
-<td style="text-align:left;padding-left: 2em;" indentlevel="1">
-unclear
-</td>
-<td style="text-align:center;">
-1 (3.6%)
-</td>
-<td style="text-align:center;">
-1 (7.7%)
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-hs
-</td>
-<td style="text-align:center;">
-8 (29%)
-</td>
-<td style="text-align:center;">
-3 (23%)
-</td>
-</tr>
-</tbody>
-<tfoot>
-<tr>
-<td style="padding: 0; " colspan="100%">
-<sup>1</sup> Mean±SD; n (%)
-</td>
-</tr>
-</tfoot>
-</table>
+| **Patients**   | **1** N = 28 | **2** N = 13 |
+|:---------------|:------------:|:------------:|
+| duration       |  15.3±11.5   |   12.2±8.7   |
+| onset          |    21±14     |    24±17     |
+| origin         |              |              |
+| mTLE           |   12 (43%)   |   7 (54%)    |
+| TLE            |   15 (54%)   |   6 (46%)    |
+| unclear        |   1 (3.6%)   |    0 (0%)    |
+| lateralization |              |              |
+| BL             |   2 (7.1%)   |    0 (0%)    |
+| L              |   13 (46%)   |   7 (54%)    |
+| R              |   12 (43%)   |   5 (38%)    |
+| unclear        |   1 (3.6%)   |   1 (7.7%)   |
+| hs             |   8 (29%)    |   3 (23%)    |
 
 ### Group differences in graph metrics
 
-<table style="NAborder-bottom: 0; color: black; " class="table">
-<thead>
-<tr>
-<th style="text-align:left;">
-Functional connectivity metrics
-</th>
-<th style="text-align:center;">
-Patient <br>N = 41
-</th>
-<th style="text-align:center;">
-Healthy <br>N = 35
-</th>
-<th style="text-align:center;">
-Statistic
-</th>
-<th style="text-align:center;">
-p-value
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-fc.strength
-</td>
-<td style="text-align:center;">
-250±79
-</td>
-<td style="text-align:center;">
-243±49
-</td>
-<td style="text-align:center;">
-0.478
-</td>
-<td style="text-align:center;">
-0.6
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-fc.clustecoef
-</td>
-<td style="text-align:center;">
-0.09±0.04
-</td>
-<td style="text-align:center;">
-0.08±0.02
-</td>
-<td style="text-align:center;">
-0.496
-</td>
-<td style="text-align:center;">
-0.6
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-fc.efficiency
-</td>
-<td style="text-align:center;">
-0.095±0.019
-</td>
-<td style="text-align:center;">
-0.093±0.013
-</td>
-<td style="text-align:center;">
-0.629
-</td>
-<td style="text-align:center;">
-0.5
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-fc.pathlengh
-</td>
-<td style="text-align:center;">
-12.13±2.03
-</td>
-<td style="text-align:center;">
-12.31±1.82
-</td>
-<td style="text-align:center;">
--0.381
-</td>
-<td style="text-align:center;">
-0.7
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-fc.neighbors
-</td>
-<td style="text-align:center;">
-0.034±0.011
-</td>
-<td style="text-align:center;">
-0.030±0.007
-</td>
-<td style="text-align:center;">
-1.96
-</td>
-<td style="text-align:center;">
-0.055
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-sc.strength
-</td>
-<td style="text-align:center;">
-1.42±0.51
-</td>
-<td style="text-align:center;">
-1.52±0.44
-</td>
-<td style="text-align:center;">
--0.875
-</td>
-<td style="text-align:center;">
-0.4
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-sc.clustecoef
-</td>
-<td style="text-align:center;">
-0.77±0.30
-</td>
-<td style="text-align:center;">
-0.89±0.29
-</td>
-<td style="text-align:center;">
--1.63
-</td>
-<td style="text-align:center;">
-0.11
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-sc.efficiency
-</td>
-<td style="text-align:center;">
-0.60±0.19
-</td>
-<td style="text-align:center;">
-0.63±0.17
-</td>
-<td style="text-align:center;">
--0.720
-</td>
-<td style="text-align:center;">
-0.5
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-sc.pathlengh
-</td>
-<td style="text-align:center;">
-0.28±0.24
-</td>
-<td style="text-align:center;">
-0.29±0.22
-</td>
-<td style="text-align:center;">
--0.192
-</td>
-<td style="text-align:center;">
-0.8
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-sc.neighbors
-</td>
-<td style="text-align:center;">
-0.20±0.07
-</td>
-<td style="text-align:center;">
-0.19±0.06
-</td>
-<td style="text-align:center;">
-0.262
-</td>
-<td style="text-align:center;">
-0.8
-</td>
-</tr>
-</tbody>
-<tfoot>
-<tr>
-<td style="padding: 0; " colspan="100%">
-<sup>1</sup> Mean±SD
-</td>
-</tr>
-<tr>
-<td style="padding: 0; " colspan="100%">
-<sup>2</sup> Welch Two Sample t-test
-</td>
-</tr>
-</tfoot>
-</table>
+| **Functional connectivity metrics** | **Patient** N = 41 | **Healthy** N = 35 | **Statistic** | **p-value** |
+|:------------------------------------|:------------------:|:------------------:|:-------------:|:-----------:|
+| fc.strength                         |       250±79       |       243±49       |     0.478     |     0.6     |
+| fc.clustecoef                       |     0.09±0.04      |     0.08±0.02      |     0.496     |     0.6     |
+| fc.efficiency                       |    0.095±0.019     |    0.093±0.013     |     0.629     |     0.5     |
+| fc.pathlengh                        |     12.13±2.03     |     12.31±1.82     |    -0.381     |     0.7     |
+| fc.neighbors                        |    0.034±0.011     |    0.030±0.007     |     1.96      |    0.055    |
+| sc.strength                         |     1.42±0.51      |     1.52±0.44      |    -0.875     |     0.4     |
+| sc.clustecoef                       |     0.77±0.30      |     0.89±0.29      |     -1.63     |    0.11     |
+| sc.efficiency                       |     0.60±0.19      |     0.63±0.17      |    -0.720     |     0.5     |
+| sc.pathlengh                        |     0.28±0.24      |     0.29±0.22      |    -0.192     |     0.8     |
+| sc.neighbors                        |     0.20±0.07      |     0.19±0.06      |     0.262     |     0.8     |
 
 ## Figure1.B \| Group Differences in MK-6240 SUVR
 
@@ -1456,279 +411,22 @@ $$\text{mk6240}_{\text{sig}} \sim \text{sex} * \text{group} + \text{age} + \text
 
 # Subcortical MK-6240 SUVR analysis
 
-<table style="NAborder-bottom: 0; color: black; " class="table">
-<thead>
-<tr>
-<th style="text-align:left;">
-Subcortical SUVR
-</th>
-<th style="text-align:center;">
-Patient <br>N = 41
-</th>
-<th style="text-align:center;">
-Healthy <br>N = 35
-</th>
-<th style="text-align:center;">
-Statistic
-</th>
-<th style="text-align:center;">
-p-value
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-ipsi.thalamus
-</td>
-<td style="text-align:center;">
-0.15±0.98
-</td>
-<td style="text-align:center;">
-0.00±1.00
-</td>
-<td style="text-align:center;">
-0.673
-</td>
-<td style="text-align:center;">
-0.5
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-ipsi.caudate
-</td>
-<td style="text-align:center;">
-0.20±1.06
-</td>
-<td style="text-align:center;">
-0.00±1.00
-</td>
-<td style="text-align:center;">
-0.845
-</td>
-<td style="text-align:center;">
-0.4
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-ipsi.putamen
-</td>
-<td style="text-align:center;">
-0.33±1.14
-</td>
-<td style="text-align:center;">
-0.00±1.00
-</td>
-<td style="text-align:center;">
-1.34
-</td>
-<td style="text-align:center;">
-0.2
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-ipsi.pallidus
-</td>
-<td style="text-align:center;">
-0.22±1.12
-</td>
-<td style="text-align:center;">
-0.00±1.00
-</td>
-<td style="text-align:center;">
-0.895
-</td>
-<td style="text-align:center;">
-0.4
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-ipsi.amygdala
-</td>
-<td style="text-align:center;">
-0.26±1.31
-</td>
-<td style="text-align:center;">
-0.00±1.00
-</td>
-<td style="text-align:center;">
-0.972
-</td>
-<td style="text-align:center;">
-0.3
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-ipsi.hippocampus
-</td>
-<td style="text-align:center;">
-0.10±1.14
-</td>
-<td style="text-align:center;">
-0.00±1.00
-</td>
-<td style="text-align:center;">
-0.412
-</td>
-<td style="text-align:center;">
-0.7
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-ipsi.accumbens
-</td>
-<td style="text-align:center;">
-0.09±0.91
-</td>
-<td style="text-align:center;">
-0.00±1.00
-</td>
-<td style="text-align:center;">
-0.411
-</td>
-<td style="text-align:center;">
-0.7
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-cntr.thalamus
-</td>
-<td style="text-align:center;">
-0.28±0.92
-</td>
-<td style="text-align:center;">
-0.00±1.00
-</td>
-<td style="text-align:center;">
-1.27
-</td>
-<td style="text-align:center;">
-0.2
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-cntr.caudate
-</td>
-<td style="text-align:center;">
-0.19±0.94
-</td>
-<td style="text-align:center;">
-0.00±1.00
-</td>
-<td style="text-align:center;">
-0.870
-</td>
-<td style="text-align:center;">
-0.4
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-cntr.putamen
-</td>
-<td style="text-align:center;">
-0.34±0.96
-</td>
-<td style="text-align:center;">
-0.00±1.00
-</td>
-<td style="text-align:center;">
-1.50
-</td>
-<td style="text-align:center;">
-0.14
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-cntr.pallidus
-</td>
-<td style="text-align:center;">
-0.17±1.09
-</td>
-<td style="text-align:center;">
-0.00±1.00
-</td>
-<td style="text-align:center;">
-0.718
-</td>
-<td style="text-align:center;">
-0.5
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-cntr.amygdala
-</td>
-<td style="text-align:center;">
-0.30±1.03
-</td>
-<td style="text-align:center;">
-0.00±1.00
-</td>
-<td style="text-align:center;">
-1.28
-</td>
-<td style="text-align:center;">
-0.2
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-cntr.hippocampus
-</td>
-<td style="text-align:center;">
--0.09±1.09
-</td>
-<td style="text-align:center;">
-0.00±1.00
-</td>
-<td style="text-align:center;">
--0.370
-</td>
-<td style="text-align:center;">
-0.7
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-cntr.accumbens
-</td>
-<td style="text-align:center;">
-0.07±0.94
-</td>
-<td style="text-align:center;">
-0.00±1.00
-</td>
-<td style="text-align:center;">
-0.292
-</td>
-<td style="text-align:center;">
-0.8
-</td>
-</tr>
-</tbody>
-<tfoot>
-<tr>
-<td style="padding: 0; " colspan="100%">
-<sup>1</sup> Mean±SD
-</td>
-</tr>
-<tr>
-<td style="padding: 0; " colspan="100%">
-<sup>2</sup> Welch Two Sample t-test
-</td>
-</tr>
-</tfoot>
-</table>
+| **Subcortical SUVR** | **Patient** N = 41 | **Healthy** N = 35 | **Statistic** | **p-value** |
+|:---------------------|:------------------:|:------------------:|:-------------:|:-----------:|
+| ipsi.thalamus        |     0.15±0.98      |     0.00±1.00      |     0.673     |     0.5     |
+| ipsi.caudate         |     0.20±1.06      |     0.00±1.00      |     0.845     |     0.4     |
+| ipsi.putamen         |     0.33±1.14      |     0.00±1.00      |     1.34      |     0.2     |
+| ipsi.pallidus        |     0.22±1.12      |     0.00±1.00      |     0.895     |     0.4     |
+| ipsi.amygdala        |     0.26±1.31      |     0.00±1.00      |     0.972     |     0.3     |
+| ipsi.hippocampus     |     0.10±1.14      |     0.00±1.00      |     0.412     |     0.7     |
+| ipsi.accumbens       |     0.09±0.91      |     0.00±1.00      |     0.411     |     0.7     |
+| cntr.thalamus        |     0.28±0.92      |     0.00±1.00      |     1.27      |     0.2     |
+| cntr.caudate         |     0.19±0.94      |     0.00±1.00      |     0.870     |     0.4     |
+| cntr.putamen         |     0.34±0.96      |     0.00±1.00      |     1.50      |    0.14     |
+| cntr.pallidus        |     0.17±1.09      |     0.00±1.00      |     0.718     |     0.5     |
+| cntr.amygdala        |     0.30±1.03      |     0.00±1.00      |     1.28      |     0.2     |
+| cntr.hippocampus     |     -0.09±1.09     |     0.00±1.00      |    -0.370     |     0.7     |
+| cntr.accumbens       |     0.07±0.94      |     0.00±1.00      |     0.292     |     0.8     |
 
 ## Subcortical data MEM
 
@@ -1806,28 +504,27 @@ cntr.accumbens
     ## 
     ##   Standard errors                            Bootstrap
     ##   Number of requested bootstrap draws             1000
-    ##   Number of successful bootstrap draws             998
+    ##   Number of successful bootstrap draws            1000
     ## 
     ## Regressions:
     ##                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
     ##   sc.neighbors ~                                                        
-    ##     mk6240.    (a)    0.150    0.056    2.672    0.008    0.150    0.331
+    ##     mk6240.    (a)    0.150    0.055    2.719    0.007    0.150    0.331
     ##   EpiTrack ~                                                            
-    ##     sc.nghb    (b)    6.185    2.408    2.568    0.010    6.185    0.330
-    ##     mk6240. (c_pr)   -3.408    1.225   -2.782    0.005   -3.408   -0.402
+    ##     sc.nghb    (b)    6.185    2.336    2.648    0.008    6.185    0.330
+    ##     mk6240. (c_pr)   -3.408    1.166   -2.921    0.003   -3.408   -0.402
     ## 
     ## Variances:
     ##                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
-    ##    .sc.neighbors      0.004    0.001    6.278    0.000    0.004    0.890
-    ##    .EpiTrack          1.242    0.270    4.599    0.000    1.242    0.817
+    ##    .sc.neighbors      0.004    0.001    6.214    0.000    0.004    0.890
+    ##    .EpiTrack          1.242    0.270    4.604    0.000    1.242    0.817
     ## 
     ## Defined Parameters:
     ##                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
-    ##     indirect          0.926    0.499    1.854    0.064    0.926    0.109
-    ##     total            -2.482    1.203   -2.062    0.039   -2.482   -0.293
+    ##     indirect          0.926    0.496    1.866    0.062    0.926    0.109
+    ##     total            -2.482    1.166   -2.128    0.033   -2.482   -0.293
 
-<div class="grViz html-widget html-fill-item" id="htmlwidget-ea4ad505e4d889c9628d" style="width:960px;height:576px;"></div>
-<script type="application/json" data-for="htmlwidget-ea4ad505e4d889c9628d">{"x":{"diagram":" digraph plot { \n graph [ overlap = true, fontsize = 10 ] \n node [ shape = box ] \n node [shape = box] \n mk6240sig; scneighbors; EpiTrack \n node [shape = oval] \n  \n \n edge [ color = black ] \n mk6240sig->scneighbors [label = \"0.33\"] scneighbors->EpiTrack [label = \"0.33\"] mk6240sig->EpiTrack [label = \"-0.4\"]  \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<img src="figures/figure-sem_1a.png" width="900" />
 
 ## SEM model for Episodic Memory
 
@@ -1881,28 +578,27 @@ cntr.accumbens
     ## 
     ##   Standard errors                            Bootstrap
     ##   Number of requested bootstrap draws             1000
-    ##   Number of successful bootstrap draws             998
+    ##   Number of successful bootstrap draws             999
     ## 
     ## Regressions:
     ##                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
     ##   sc.neighbors ~                                                        
-    ##     mk6240.    (a)    0.167    0.052    3.212    0.001    0.167    0.367
+    ##     mk6240.    (a)    0.167    0.053    3.135    0.002    0.167    0.367
     ##   Episodic ~                                                            
-    ##     sc.nghb    (b)   -0.132    3.016   -0.044    0.965   -0.132   -0.007
-    ##     mk6240. (c_pr)   -2.658    1.206   -2.204    0.028   -2.658   -0.318
+    ##     sc.nghb    (b)   -0.132    2.942   -0.045    0.964   -0.132   -0.007
+    ##     mk6240. (c_pr)   -2.658    1.132   -2.348    0.019   -2.658   -0.318
     ## 
     ## Variances:
     ##                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
-    ##    .sc.neighbors      0.004    0.001    6.211    0.000    0.004    0.865
-    ##    .Episodic          1.366    0.211    6.466    0.000    1.366    0.897
+    ##    .sc.neighbors      0.004    0.001    6.445    0.000    0.004    0.865
+    ##    .Episodic          1.366    0.201    6.786    0.000    1.366    0.897
     ## 
     ## Defined Parameters:
     ##                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
-    ##     indirect         -0.022    0.530   -0.041    0.967   -0.022   -0.003
-    ##     total            -2.680    1.079   -2.483    0.013   -2.680   -0.321
+    ##     indirect         -0.022    0.520   -0.042    0.966   -0.022   -0.003
+    ##     total            -2.680    1.008   -2.659    0.008   -2.680   -0.321
 
-<div class="grViz html-widget html-fill-item" id="htmlwidget-d5d7456f7d046e6c35b7" style="width:960px;height:576px;"></div>
-<script type="application/json" data-for="htmlwidget-d5d7456f7d046e6c35b7">{"x":{"diagram":" digraph plot { \n graph [ overlap = true, fontsize = 10 ] \n node [ shape = box ] \n node [shape = box] \n mk6240sig; scneighbors; Episodic \n node [shape = oval] \n  \n \n edge [ color = black ] \n mk6240sig->scneighbors [label = \"0.37\"] scneighbors->Episodic [label = \"\"] mk6240sig->Episodic [label = \"-0.32\"]  \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<img src="figures/figure-sem_1b.png" width="900" />
 
 ## SEM model for Semantic Memory
 
@@ -1956,28 +652,27 @@ cntr.accumbens
     ## 
     ##   Standard errors                            Bootstrap
     ##   Number of requested bootstrap draws             1000
-    ##   Number of successful bootstrap draws             997
+    ##   Number of successful bootstrap draws            1000
     ## 
     ## Regressions:
     ##                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
     ##   sc.neighbors ~                                                        
-    ##     mk6240.    (a)    0.180    0.054    3.314    0.001    0.180    0.394
+    ##     mk6240.    (a)    0.180    0.055    3.288    0.001    0.180    0.394
     ##   Semantic ~                                                            
-    ##     sc.nghb    (b)    2.549    2.262    1.127    0.260    2.549    0.193
-    ##     mk6240. (c_pr)    0.059    1.232    0.048    0.962    0.059    0.010
+    ##     sc.nghb    (b)    2.549    2.368    1.076    0.282    2.549    0.193
+    ##     mk6240. (c_pr)    0.059    1.241    0.047    0.962    0.059    0.010
     ## 
     ## Variances:
     ##                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
-    ##    .sc.neighbors      0.004    0.001    6.462    0.000    0.004    0.845
-    ##    .Semantic          0.771    0.307    2.510    0.012    0.771    0.961
+    ##    .sc.neighbors      0.004    0.001    6.356    0.000    0.004    0.845
+    ##    .Semantic          0.771    0.306    2.519    0.012    0.771    0.961
     ## 
     ## Defined Parameters:
     ##                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
-    ##     indirect          0.458    0.425    1.077    0.281    0.458    0.076
-    ##     total             0.517    1.005    0.514    0.607    0.517    0.086
+    ##     indirect          0.458    0.441    1.040    0.299    0.458    0.076
+    ##     total             0.517    1.013    0.510    0.610    0.517    0.086
 
-<div class="grViz html-widget html-fill-item" id="htmlwidget-7519a872985736de035f" style="width:960px;height:576px;"></div>
-<script type="application/json" data-for="htmlwidget-7519a872985736de035f">{"x":{"diagram":" digraph plot { \n graph [ overlap = true, fontsize = 10 ] \n node [ shape = box ] \n node [shape = box] \n mk6240sig; scneighbors; Semantic \n node [shape = oval] \n  \n \n edge [ color = black ] \n mk6240sig->scneighbors [label = \"0.39\"] scneighbors->Semantic [label = \"\"] mk6240sig->Semantic [label = \"\"]  \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<img src="figures/figure-sem_1c.png" width="900" />
 
 ### Full SEM model with multiple mediators and outcomes
 
@@ -2035,62 +730,61 @@ cntr.accumbens
     ## 
     ##   Standard errors                            Bootstrap
     ##   Number of requested bootstrap draws             1000
-    ##   Number of successful bootstrap draws             991
+    ##   Number of successful bootstrap draws             994
     ## 
     ## Regressions:
     ##                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
     ##   sc.neighbors ~                                                        
-    ##     mk6240.s  (a1)    0.170    0.056    3.043    0.002    0.170    0.378
+    ##     mk6240.s  (a1)    0.170    0.055    3.071    0.002    0.170    0.378
     ##   sc.efficiency ~                                                       
-    ##     mk6240.s  (a2)    0.053    0.167    0.317    0.752    0.053    0.045
+    ##     mk6240.s  (a2)    0.053    0.165    0.319    0.750    0.053    0.045
     ##   EpiTrack ~                                                            
-    ##     sc.nghbr (b11)    9.942    8.800    1.130    0.259    9.942    0.534
-    ##     sc.ffcnc (b12)   -1.919    3.284   -0.584    0.559   -1.919   -0.267
-    ##     mk6240.s  (c1)   -4.078    1.570   -2.597    0.009   -4.078   -0.486
+    ##     sc.nghbr (b11)    9.942    8.909    1.116    0.264    9.942    0.534
+    ##     sc.ffcnc (b12)   -1.919    3.341   -0.574    0.566   -1.919   -0.267
+    ##     mk6240.s  (c1)   -4.078    1.529   -2.668    0.008   -4.078   -0.486
     ##   Episodic ~                                                            
-    ##     sc.nghbr (b21)   10.619   10.288    1.032    0.302   10.619    0.586
-    ##     sc.ffcnc (b22)   -3.974    3.667   -1.084    0.279   -3.974   -0.567
-    ##     mk6240.s  (c2)   -4.509    1.505   -2.996    0.003   -4.509   -0.552
+    ##     sc.nghbr (b21)   10.619   10.856    0.978    0.328   10.619    0.586
+    ##     sc.ffcnc (b22)   -3.974    3.847   -1.033    0.302   -3.974   -0.567
+    ##     mk6240.s  (c2)   -4.509    1.569   -2.875    0.004   -4.509   -0.552
     ##   Semantic ~                                                            
-    ##     sc.nghbr (b31)    7.570    5.922    1.278    0.201    7.570    0.567
-    ##     sc.ffcnc (b32)   -1.957    1.855   -1.055    0.291   -1.957   -0.379
-    ##     mk6240.s  (c3)   -0.835    1.390   -0.601    0.548   -0.835   -0.139
+    ##     sc.nghbr (b31)    7.570    5.869    1.290    0.197    7.570    0.567
+    ##     sc.ffcnc (b32)   -1.957    1.806   -1.083    0.279   -1.957   -0.379
+    ##     mk6240.s  (c3)   -0.835    1.371   -0.609    0.543   -0.835   -0.139
     ## 
     ## Covariances:
     ##                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
     ##  .sc.neighbors ~~                                                       
-    ##    .sc.efficiency     0.011    0.002    6.064    0.000    0.011    0.954
+    ##    .sc.efficiency     0.011    0.002    6.060    0.000    0.011    0.954
     ##  .EpiTrack ~~                                                           
-    ##    .Episodic          0.496    0.189    2.627    0.009    0.496    0.373
-    ##    .Semantic          0.523    0.166    3.141    0.002    0.523    0.501
+    ##    .Episodic          0.496    0.189    2.628    0.009    0.496    0.373
+    ##    .Semantic          0.523    0.169    3.091    0.002    0.523    0.501
     ##  .Episodic ~~                                                           
-    ##    .Semantic          0.192    0.128    1.496    0.135    0.192    0.189
+    ##    .Semantic          0.192    0.133    1.446    0.148    0.192    0.189
     ## 
     ## Variances:
     ##                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
-    ##    .sc.neighbors      0.004    0.001    6.220    0.000    0.004    0.857
-    ##    .sc.efficiency     0.031    0.005    6.061    0.000    0.031    0.998
-    ##    .EpiTrack          1.369    0.350    3.915    0.000    1.369    0.848
-    ##    .Episodic          1.293    0.208    6.214    0.000    1.293    0.844
-    ##    .Semantic          0.797    0.324    2.458    0.014    0.797    0.957
+    ##    .sc.neighbors      0.004    0.001    6.151    0.000    0.004    0.857
+    ##    .sc.efficiency     0.031    0.005    6.097    0.000    0.031    0.998
+    ##    .EpiTrack          1.369    0.337    4.065    0.000    1.369    0.848
+    ##    .Episodic          1.293    0.202    6.401    0.000    1.293    0.844
+    ##    .Semantic          0.797    0.327    2.436    0.015    0.797    0.957
     ## 
     ## Defined Parameters:
     ##                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
-    ##     ind_Eptrck_ngh    1.694    1.656    1.023    0.306    1.694    0.202
-    ##     ind_Eptrck_ffc   -0.101    0.686   -0.148    0.883   -0.101   -0.012
-    ##     ind_Eptrck_ttl    1.592    1.286    1.238    0.216    1.592    0.190
-    ##     ind_Epsdc_nghb    1.809    1.952    0.927    0.354    1.809    0.221
-    ##     ind_Epsdc_ffcn   -0.210    0.965   -0.217    0.828   -0.210   -0.026
-    ##     ind_Episdc_ttl    1.600    1.558    1.026    0.305    1.600    0.196
-    ##     ind_Smntc_nghb    1.290    1.069    1.206    0.228    1.290    0.214
-    ##     ind_Smntc_ffcn   -0.103    0.454   -0.228    0.820   -0.103   -0.017
-    ##     ind_Semntc_ttl    1.186    0.900    1.318    0.188    1.186    0.197
-    ##     total_Epitrack   -2.486    1.341   -1.854    0.064   -2.486   -0.296
-    ##     total_Episodic   -2.910    1.046   -2.782    0.005   -2.910   -0.356
-    ##     total_Semantic    0.351    1.029    0.341    0.733    0.351    0.058
+    ##     ind_Eptrck_ngh    1.694    1.639    1.033    0.302    1.694    0.202
+    ##     ind_Eptrck_ffc   -0.101    0.641   -0.158    0.875   -0.101   -0.012
+    ##     ind_Eptrck_ttl    1.592    1.308    1.217    0.224    1.592    0.190
+    ##     ind_Epsdc_nghb    1.809    1.976    0.916    0.360    1.809    0.221
+    ##     ind_Epsdc_ffcn   -0.210    0.914   -0.229    0.819   -0.210   -0.026
+    ##     ind_Episdc_ttl    1.600    1.643    0.973    0.330    1.600    0.196
+    ##     ind_Smntc_nghb    1.290    1.048    1.230    0.219    1.290    0.214
+    ##     ind_Smntc_ffcn   -0.103    0.455   -0.227    0.820   -0.103   -0.017
+    ##     ind_Semntc_ttl    1.186    0.881    1.347    0.178    1.186    0.197
+    ##     total_Epitrack   -2.486    1.349   -1.843    0.065   -2.486   -0.296
+    ##     total_Episodic   -2.910    1.068   -2.725    0.006   -2.910   -0.356
+    ##     total_Semantic    0.351    1.023    0.343    0.731    0.351    0.058
 
-<div class="grViz html-widget html-fill-item" id="htmlwidget-e2386d90480017c4f766" style="width:960px;height:288px;"></div>
-<script type="application/json" data-for="htmlwidget-e2386d90480017c4f766">{"x":{"diagram":" digraph plot { \n graph [ overlap = true, fontsize = 10 ] \n node [ shape = box ] \n node [shape = box] \n mk6240sig; scneighbors; scefficiency; EpiTrack; Episodic; Semantic \n node [shape = oval] \n  \n \n edge [ color = black ] \n mk6240sig->scneighbors [label = \"0.38\"] mk6240sig->scefficiency [label = \"\"] scneighbors->EpiTrack [label = \"\"] scefficiency->EpiTrack [label = \"\"] mk6240sig->EpiTrack [label = \"-0.49\"] scneighbors->Episodic [label = \"\"] scefficiency->Episodic [label = \"\"] mk6240sig->Episodic [label = \"-0.55\"] scneighbors->Semantic [label = \"\"] scefficiency->Semantic [label = \"\"] mk6240sig->Semantic [label = \"\"]  \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<img src="figures/figure-sem_2a.png" width="1200" />
 
 ### Full SEM model with multiple mediators and outcomes and ipsilateralhippocampal volume
 
@@ -2149,66 +843,65 @@ cntr.accumbens
     ## Regressions:
     ##                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
     ##   sc.neighbors ~                                                        
-    ##     mk6240.s  (a1)    0.170    0.056    3.042    0.002    0.170    0.378
+    ##     mk6240.s  (a1)    0.170    0.055    3.077    0.002    0.170    0.378
     ##   sc.efficiency ~                                                       
-    ##     mk6240.s  (a2)    0.053    0.167    0.317    0.752    0.053    0.045
+    ##     mk6240.s  (a2)    0.053    0.165    0.320    0.749    0.053    0.045
     ##   hip.ipsi ~                                                            
-    ##     mk6240.s  (a3)   -2.266    1.160   -1.954    0.051   -2.266   -0.314
+    ##     mk6240.s  (a3)   -2.266    1.165   -1.945    0.052   -2.266   -0.314
     ##   EpiTrack ~                                                            
-    ##     sc.nghbr (b11)    8.915    9.928    0.898    0.369    8.915    0.479
-    ##     sc.ffcnc (b12)   -1.482    3.817   -0.388    0.698   -1.482   -0.206
-    ##     hip.ipsi (b13)    0.088    0.212    0.414    0.679    0.088    0.076
-    ##     mk6240.s  (c1)   -3.727    1.765   -2.112    0.035   -3.727   -0.444
+    ##     sc.nghbr (b11)    8.915   10.093    0.883    0.377    8.915    0.479
+    ##     sc.ffcnc (b12)   -1.482    3.913   -0.379    0.705   -1.482   -0.206
+    ##     hip.ipsi (b13)    0.088    0.211    0.416    0.678    0.088    0.076
+    ##     mk6240.s  (c1)   -3.727    1.774   -2.101    0.036   -3.727   -0.444
     ##   Episodic ~                                                            
-    ##     sc.nghbr (b21)    9.510   10.716    0.887    0.375    9.510    0.525
-    ##     sc.ffcnc (b22)   -3.502    3.949   -0.887    0.375   -3.502   -0.500
-    ##     hip.ipsi (b23)    0.095    0.195    0.487    0.626    0.095    0.084
-    ##     mk6240.s  (c2)   -4.130    1.792   -2.304    0.021   -4.130   -0.506
+    ##     sc.nghbr (b21)    9.510   11.258    0.845    0.398    9.510    0.525
+    ##     sc.ffcnc (b22)   -3.502    4.136   -0.847    0.397   -3.502   -0.500
+    ##     hip.ipsi (b23)    0.095    0.193    0.493    0.622    0.095    0.084
+    ##     mk6240.s  (c2)   -4.130    1.817   -2.273    0.023   -4.130   -0.506
     ##   Semantic ~                                                            
-    ##     sc.nghbr (b31)    6.897    6.232    1.107    0.268    6.897    0.516
-    ##     sc.ffcnc (b32)   -1.671    2.057   -0.812    0.417   -1.671   -0.324
-    ##     hip.ipsi (b33)    0.058    0.113    0.511    0.609    0.058    0.069
-    ##     mk6240.s  (c3)   -0.605    1.306   -0.463    0.643   -0.605   -0.100
+    ##     sc.nghbr (b31)    6.897    6.208    1.111    0.267    6.897    0.516
+    ##     sc.ffcnc (b32)   -1.671    2.043   -0.818    0.414   -1.671   -0.324
+    ##     hip.ipsi (b33)    0.058    0.114    0.506    0.613    0.058    0.069
+    ##     mk6240.s  (c3)   -0.605    1.308   -0.463    0.644   -0.605   -0.100
     ## 
     ## Covariances:
     ##                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
     ##  .sc.neighbors ~~                                                       
-    ##    .sc.efficiency     0.011    0.002    6.077    0.000    0.011    0.954
-    ##    .hip.ipsi         -0.006    0.009   -0.717    0.474   -0.006   -0.095
+    ##    .sc.efficiency     0.011    0.002    6.069    0.000    0.011    0.954
+    ##    .hip.ipsi         -0.006    0.008   -0.778    0.436   -0.006   -0.095
     ##  .sc.efficiency ~~                                                      
-    ##    .hip.ipsi         -0.031    0.023   -1.332    0.183   -0.031   -0.167
+    ##    .hip.ipsi         -0.031    0.022   -1.424    0.154   -0.031   -0.167
     ##  .EpiTrack ~~                                                           
-    ##    .Episodic          0.488    0.183    2.667    0.008    0.488    0.369
-    ##    .Semantic          0.518    0.169    3.070    0.002    0.518    0.498
+    ##    .Episodic          0.488    0.184    2.651    0.008    0.488    0.369
+    ##    .Semantic          0.518    0.169    3.055    0.002    0.518    0.498
     ##  .Episodic ~~                                                           
-    ##    .Semantic          0.186    0.132    1.412    0.158    0.186    0.185
+    ##    .Semantic          0.186    0.137    1.364    0.172    0.186    0.185
     ## 
     ## Variances:
     ##                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
-    ##    .sc.neighbors      0.004    0.001    6.226    0.000    0.004    0.857
-    ##    .sc.efficiency     0.031    0.005    6.078    0.000    0.031    0.998
-    ##    .hip.ipsi          1.078    0.277    3.884    0.000    1.078    0.901
-    ##    .EpiTrack          1.362    0.322    4.235    0.000    1.362    0.843
-    ##    .Episodic          1.284    0.204    6.310    0.000    1.284    0.838
-    ##    .Semantic          0.793    0.324    2.447    0.014    0.793    0.953
+    ##    .sc.neighbors      0.004    0.001    6.158    0.000    0.004    0.857
+    ##    .sc.efficiency     0.031    0.005    6.104    0.000    0.031    0.998
+    ##    .hip.ipsi          1.078    0.263    4.090    0.000    1.078    0.901
+    ##    .EpiTrack          1.362    0.313    4.357    0.000    1.362    0.843
+    ##    .Episodic          1.284    0.196    6.559    0.000    1.284    0.838
+    ##    .Semantic          0.793    0.325    2.438    0.015    0.793    0.953
     ## 
     ## Defined Parameters:
     ##                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
-    ##     ind_Eptrck_ngh    1.519    1.874    0.810    0.418    1.519    0.181
-    ##     ind_Eptrck_ffc   -0.078    0.789   -0.099    0.921   -0.078   -0.009
-    ##     ind_Eptrck_hp_   -0.199    0.538   -0.370    0.712   -0.199   -0.024
-    ##     ind_Eptrck_ttl    1.242    1.694    0.733    0.464    1.242    0.148
-    ##     ind_Epsdc_nghb    1.620    2.057    0.788    0.431    1.620    0.198
-    ##     ind_Epsdc_ffcn   -0.185    1.005   -0.184    0.854   -0.185   -0.023
-    ##     ind_Epsdc_hp_p   -0.215    0.518   -0.415    0.678   -0.215   -0.026
-    ##     ind_Episdc_ttl    1.220    1.779    0.686    0.493    1.220    0.149
-    ##     ind_Smntc_nghb    1.175    1.125    1.045    0.296    1.175    0.195
-    ##     ind_Smntc_ffcn   -0.088    0.461   -0.191    0.848   -0.088   -0.015
-    ##     ind_Smntc_hp_p   -0.130    0.258   -0.505    0.614   -0.130   -0.022
-    ##     ind_Semntc_ttl    0.957    0.986    0.970    0.332    0.957    0.159
-    ##     total_Epitrack   -2.486    1.345   -1.848    0.065   -2.486   -0.296
-    ##     total_Episodic   -2.910    1.048   -2.777    0.005   -2.910   -0.356
-    ##     total_Semantic    0.351    1.029    0.341    0.733    0.351    0.058
+    ##     ind_Eptrck_ngh    1.519    1.867    0.813    0.416    1.519    0.181
+    ##     ind_Eptrck_ffc   -0.078    0.769   -0.102    0.919   -0.078   -0.009
+    ##     ind_Eptrck_hp_   -0.199    0.570   -0.349    0.727   -0.199   -0.024
+    ##     ind_Eptrck_ttl    1.242    1.712    0.725    0.468    1.242    0.148
+    ##     ind_Epsdc_nghb    1.620    2.071    0.782    0.434    1.620    0.198
+    ##     ind_Epsdc_ffcn   -0.185    0.958   -0.193    0.847   -0.185   -0.023
+    ##     ind_Epsdc_hp_p   -0.215    0.485   -0.443    0.658   -0.215   -0.026
+    ##     ind_Episdc_ttl    1.220    1.830    0.667    0.505    1.220    0.149
+    ##     ind_Smntc_nghb    1.175    1.131    1.039    0.299    1.175    0.195
+    ##     ind_Smntc_ffcn   -0.088    0.480   -0.184    0.854   -0.088   -0.015
+    ##     ind_Smntc_hp_p   -0.130    0.275   -0.474    0.636   -0.130   -0.022
+    ##     ind_Semntc_ttl    0.957    0.982    0.974    0.330    0.957    0.159
+    ##     total_Epitrack   -2.486    1.352   -1.839    0.066   -2.486   -0.296
+    ##     total_Episodic   -2.910    1.069   -2.723    0.006   -2.910   -0.356
+    ##     total_Semantic    0.351    1.021    0.344    0.731    0.351    0.058
 
-<div class="grViz html-widget html-fill-item" id="htmlwidget-eae8574c146370dabeb8" style="width:960px;height:288px;"></div>
-<script type="application/json" data-for="htmlwidget-eae8574c146370dabeb8">{"x":{"diagram":" digraph plot { \n graph [ overlap = true, fontsize = 10 ] \n node [ shape = box ] \n node [shape = box] \n mk6240sig; scneighbors; scefficiency; hipipsi; EpiTrack; Episodic; Semantic \n node [shape = oval] \n  \n \n edge [ color = black ] \n mk6240sig->scneighbors [label = \"0.38\"] mk6240sig->scefficiency [label = \"\"] mk6240sig->hipipsi [label = \"\"] scneighbors->EpiTrack [label = \"\"] scefficiency->EpiTrack [label = \"\"] hipipsi->EpiTrack [label = \"\"] mk6240sig->EpiTrack [label = \"-0.44\"] scneighbors->Episodic [label = \"\"] scefficiency->Episodic [label = \"\"] hipipsi->Episodic [label = \"\"] mk6240sig->Episodic [label = \"-0.51\"] scneighbors->Semantic [label = \"\"] scefficiency->Semantic [label = \"\"] hipipsi->Semantic [label = \"\"] mk6240sig->Semantic [label = \"\"]  \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<img src="figures/figure-sem_2b.png" width="1200" />

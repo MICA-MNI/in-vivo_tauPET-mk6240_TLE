@@ -169,11 +169,11 @@ rm(osf_file, tmpdir)
 
 # Mean and Std
 
-```{r table1, echo=FALSE, message=FALSE, warning=FALSE}
+```{r table1md, echo=FALSE, message=FALSE, warning=FALSE}
 # Mean and Std
 mk.df$group <- factor(mk.df$group, levels = c("Patient", "Healthy"))
 
-mk.df %>%
+table1 <- mk.df %>%
   dplyr::select(
     group, age, mk6240.mean, mk6240.sig, mk6240.mean.ipsi, mk6240.mean.contra, mk6240.sig.ipsi, mk6240.sig.contra, mk6240.Tdiff,mk6240.mri.Tdiff,
     EpiTrack, Episodic, Semantic,  
@@ -186,8 +186,12 @@ mk.df %>%
   ) %>%                                   # <<< closed tbl_summary() properly
   modify_header(label = "**Demographics**") %>%
   add_p(test = all_continuous() ~ "t.test") %>%
-  modify_header(statistic ~ "**Statistic**") %>%
-  as_kable_extra(
+  modify_header(statistic ~ "**Statistic**")
+  table1  %>%  as_kable(format = "pipe")
+```
+
+```{r table1, echo=FALSE, message=FALSE, warning=FALSE, eval=FALSE}
+table1  %>% as_kable_extra(
     booktabs = TRUE,
     longtable = TRUE,
     linesep = ""
@@ -197,13 +201,13 @@ mk.df %>%
     latex_options = c("striped", "repeat_header"),
     stripe_color = "gray!15"
   )
-
 ```
+
 
 ## Sex distribution by group and session
 
 ```{r sex.table, echo=FALSE, message=FALSE, warning=FALSE}
-mk.df %>%
+sex.table <- mk.df %>%
   dplyr::select(group, mk6240.session, sex, handedness, age, mk6240.Tdiff) %>%
   tbl_strata(
     strata = group,
@@ -215,20 +219,32 @@ mk.df %>%
         statistic = list(all_continuous() ~ "{mean}±{sd}", all_categorical() ~ "{n}")
       )
   )
+sex.table  %>%  as_kable(format = "pipe")
 ```
 
-## Clinical characteristics of patients
+```{r sex.table.md, echo=FALSE, message=FALSE, warning=FALSE, eval=FALSE}
+sex.table 
+```
+
+## Clinical characteristics of patients by MK6240 session
 
 ```{r table3, echo=FALSE, message=FALSE, warning=FALSE}
 # Mean and Std
-mk.df %>%
+table3 <- mk.df %>%
   subset(group=="Patient") %>% 
   dplyr::select(mk6240.session, duration, onset, origin, lateralization, hs) %>%
   tbl_summary(by=mk6240.session, missing = "no",
               statistic = list(all_continuous() ~ "{mean}±{sd}"),
               type = list(duration ~ "continuous"),
               digits = list(duration~1)) %>%
-  modify_header(label = "**Patients**") %>% 
+  modify_header(label = "**Patients**") 
+
+table3 %>% as_kable(format = "pipe")
+```
+
+
+```{r table3md, echo=FALSE, message=FALSE, warning=FALSE, eval=FALSE}
+table3 %>% 
     as_kable_extra(
       booktabs = TRUE,
       longtable = TRUE,
@@ -239,12 +255,13 @@ mk.df %>%
       latex_options = c("striped", "repeat_header"),
       stripe_color = "gray!15"
     )
+
 ```
 
 
 ### Group differences in graph metrics
 ```{r gta.table, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=4}
-mk.df %>%
+table.gta <- mk.df %>%
   dplyr::select(
     group, fc.strength, fc.clustecoef, fc.efficiency, fc.pathlengh, fc.neighbors,
     sc.strength, sc.clustecoef, sc.efficiency, sc.pathlengh, sc.neighbors
@@ -256,8 +273,13 @@ mk.df %>%
   ) %>%                                   # <<< closed tbl_summary() properly
   modify_header(label = "**Functional connectivity metrics**") %>%
   add_p(test = all_continuous() ~ "t.test") %>%
-  modify_header(statistic ~ "**Statistic**") %>%
-  as_kable_extra(
+  modify_header(statistic ~ "**Statistic**") 
+
+table.gta %>% as_kable(format = "pipe")
+```
+
+```{r gta.table.md, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=4, eval=FALSE}
+table.gta %>% as_kable_extra(
     booktabs = TRUE,
     longtable = TRUE,
     linesep = ""
@@ -267,8 +289,8 @@ mk.df %>%
     latex_options = c("striped", "repeat_header"),
     stripe_color = "gray!15"
   )
-```
 
+```
 
 ## Figure1.B \| Group Differences in MK-6240 SUVR
 
@@ -652,7 +674,6 @@ summary(mem2)
 # Subcortical MK-6240 SUVR analysis
 
 ```{r sub.stats, echo=FALSE, message=FALSE, warning=FALSE}
-
 # Make sure group is a factor with Patient - Healthy order (positive if Patient is higher)
 mk.df$group <- factor(mk.df$group, levels = c("Patient", "Healthy"))
 
@@ -666,7 +687,7 @@ names(mk.df)[idx] <- gsub("^suvr\\.", "", names(mk.df)[idx])
 sctx.str <- gsub("suvr.", "", sctx.str)
 
 # Mean and Std
-mk.df %>%
+table.sub <- mk.df %>%
   dplyr::select(
     group, all_of(sctx.str)) %>%
   tbl_summary(
@@ -676,13 +697,18 @@ mk.df %>%
   ) %>%                                   # <<< closed tbl_summary() properly
   modify_header(label = "**Subcortical SUVR**") %>%
   add_p(test = all_continuous() ~ "t.test") %>%
-  modify_header(statistic ~ "**Statistic**") %>%
+  modify_header(statistic ~ "**Statistic**") 
+
+table.sub %>% as_kable(format = "pipe")
+```
+
+```{r sub.stats.md, echo=FALSE, message=FALSE, warning=FALSE, eval=FALSE}
+table.sub %>%
   as_kable_extra(
     booktabs = TRUE,
     longtable = TRUE,
     linesep = ""
-  ) %>%
-  kableExtra::kable_styling(
+  ) %>% kableExtra::kable_styling(
     position = "left",
     latex_options = c("striped", "repeat_header"),
     stripe_color = "gray!15"
@@ -1013,15 +1039,21 @@ model <- '
 fit <- sem(model, data = mk.ses1, se = "bootstrap", bootstrap = 1000)
 summary(fit, standardized = TRUE, fit.measures = TRUE)
 
-lavaanPlot(model = fit,
-           coefs = TRUE,       # show coefficients
-           stand = TRUE,       # standardized coefficients
-           sig = 0.05)         # only show significant paths
+p <- lavaanPlot(model = fit,
+                coefs = TRUE,
+                stand = TRUE,
+                sig = 0.05)
+
+savepath <- dirname(rstudioapi::getSourceEditorContext()$path)
+lavaanPlot::save_png(p, file.path(savepath, "figures", "figure-sem_1a.png"), width = 900, height = 600)
+
+knitr::include_graphics("figures/figure-sem_1a.png")
+
 ```
 
 ## SEM model for Episodic Memory
 
-```{r sem_episodic, fig.width=10, fig.height=6, warning=FALSE, echo=FALSE, message=FALSE}
+```{r sem_episodic, echo=FALSE, fig.height=6, fig.width=10, message=FALSE, warning=FALSE}
 model <- '
   # Label paths for the mediation
   sc.neighbors ~ a * mk6240.sig
@@ -1035,10 +1067,16 @@ model <- '
 fit <- sem(model, data = mk.ses1, se = "bootstrap", bootstrap = 1000)
 summary(fit, standardized = TRUE, fit.measures = TRUE)
 
-lavaanPlot(model = fit,
+p <- lavaanPlot(model = fit,
            coefs = TRUE,       # show coefficients
            stand = TRUE,       # standardized coefficients
            sig = 0.05)         # only show significant paths
+
+savepath <- dirname(rstudioapi::getSourceEditorContext()$path)
+lavaanPlot::save_png(p, file.path(savepath, "figures", "figure-sem_1b.png"), width = 900, height = 600)
+
+knitr::include_graphics("figures/figure-sem_1b.png")
+
 ```
 
 ## SEM model for Semantic Memory
@@ -1058,10 +1096,15 @@ model <- '
 fit <- sem(model, data = mk.ses1, se = "bootstrap", bootstrap = 1000)
 summary(fit, standardized = TRUE, fit.measures = TRUE)
 
-lavaanPlot(model = fit,
+p <- lavaanPlot(model = fit,
            coefs = TRUE,       # show coefficients
            stand = TRUE,       # standardized coefficients
            sig = 0.05)         # only show significant paths
+
+savepath <- dirname(rstudioapi::getSourceEditorContext()$path)
+lavaanPlot::save_png(p, file.path(savepath, "figures", "figure-sem_1c.png"), width = 900, height = 600)
+
+knitr::include_graphics("figures/figure-sem_1c.png")
 ```
 
 ### Full SEM model with multiple mediators and outcomes
@@ -1120,10 +1163,15 @@ model <- '
 fit.full <- sem(model, data = mk.ses1, se = "bootstrap", bootstrap = 1000)
 summary(fit.full, standardized = TRUE, fit.measures = TRUE)
 
-lavaanPlot(model = fit.full,
+p <- lavaanPlot(model = fit.full,
            coefs = TRUE,       # show coefficients
            stand = TRUE,       # standardized coefficients
            sig = 0.05)         # only show significant paths
+
+savepath <- dirname(rstudioapi::getSourceEditorContext()$path)
+lavaanPlot::save_png(p, file.path(savepath, "figures", "figure-sem_2a.png"), width = 1200, height = 800)
+
+knitr::include_graphics("figures/figure-sem_2a.png")
 
 ```
 
@@ -1192,15 +1240,20 @@ total_Episodic := c2 + ind_Episodic_total
 total_Semantic := c3 + ind_Semantic_total
 '
 
-fit.full <- sem(model, data = mk.ses1, se = "bootstrap", bootstrap = 1000)
-summary(fit.full, standardized = TRUE, fit.measures = TRUE)
+fit.full.hip <- sem(model, data = mk.ses1, se = "bootstrap", bootstrap = 1000)
+summary(fit.full.hip, standardized = TRUE, fit.measures = TRUE)
 
-lavaanPlot(model = fit.full,
+p1 <- lavaanPlot(model = fit.full.hip,
            coefs = TRUE,       # show coefficients
            stand = TRUE,       # standardized coefficients
            sig = 0.05)         # only show significant paths
 
+savepath <- dirname(rstudioapi::getSourceEditorContext()$path)
+lavaanPlot::save_png(p1, file.path(savepath, "figures", "figure-sem_2b.png"), width = 1200, height = 800)
+
 ```
 
 
-
+```{r sem_full+hipplot, fig.width=10, fig.height=3, warning=FALSE, echo=FALSE, message=FALSE}
+knitr::include_graphics("figures/figure-sem_2b.png")
+```
