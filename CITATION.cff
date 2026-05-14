@@ -1,0 +1,132 @@
+# schema: https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md
+
+cff-version: 1.2.0
+
+title: "IN-VIVO EVIDENCE FOR INCREASED TAU DEPOSITION IN TEMPORAL LOBE EPILEPSY"
+
+message: "If you use this work, please cite the manuscript."
+
+type: article
+
+license: CC-BY-4.0
+
+repository-code: https://github.com/MICA-MNI/2025_in-vivo_tauPET-mk6240_TLE
+
+keywords:
+  - temporal lobe epilepsy
+  - TLE
+  - tauopathy
+  - neuroimaging
+  - neuroinflammation
+  - PET
+  - MRI
+  - 18F-MK-6240
+  - tau
+  - epilepsy
+
+authors:
+  - family-names: Cruces
+    given-names: Raul R.
+    orcid: https://orcid.org/0000-0002-2917-1212
+    affiliation: "McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University, Montreal, Québec, Canada"
+
+  - family-names: Lam
+    given-names: Jack
+    orcid: https://orcid.org/0000-0003-3173-7665
+    affiliation: "McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University, Montreal, Québec, Canada"
+
+  - family-names: Arafat
+    given-names: Thaera
+    orcid: https://orcid.org/0000-0002-9210-2092
+    affiliation: "McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University, Montreal, Québec, Canada"
+
+  - family-names: Royer
+    given-names: Jessica
+    orcid: https://orcid.org/0000-0002-4448-8998
+    affiliation: "McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University, Montreal, Québec, Canada"
+
+  - family-names: Chen
+    given-names: Judy
+    orcid: https://orcid.org/0009-0004-6332-9935
+    affiliation: "McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University, Montreal, Québec, Canada"
+
+  - family-names: Sahlas
+    given-names: Ella
+    orcid: https://orcid.org/0000-0002-7119-977X
+    affiliation: "McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University, Montreal, Québec, Canada"
+
+  - family-names: Dascal
+    given-names: Arielle
+    affiliation: "McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University, Montreal, Québec, Canada"
+
+  - family-names: Mendelson
+    given-names: Daniel
+    affiliation: "McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University, Montreal, Québec, Canada"
+
+  - family-names: Pana
+    given-names: Raluca
+    affiliation: "Montreal Neurological Institute, McGill University Health Centre (MUHC), McGill University, Montreal, Québec, Canada"
+
+  - family-names: Hopewell
+    given-names: Robert
+    affiliation: "McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University, Montreal, Québec, Canada"
+
+  - family-names: Hsiao
+    given-names: Chris Hung-Hsin
+    affiliation: "McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University, Montreal, Québec, Canada"
+
+  - family-names: Massarweh
+    given-names: Gassan
+    affiliation: "McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University, Montreal, Québec, Canada"
+
+  - family-names: Soucy
+    given-names: Jean-Paul
+    affiliation: "McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University, Montreal, Québec, Canada"
+
+  - family-names: Rosa-Neto
+    given-names: Pedro
+    affiliation: "McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University, Montreal, Québec, Canada"
+
+  - family-names: Guiot
+    given-names: Marie-Christine
+    affiliation: "Montreal Neurological Institute, McGill University Health Centre (MUHC), McGill University, Montreal, Québec, Canada"
+
+  - family-names: Villeneuve
+    given-names: Sylvia
+    affiliation: "StoP-AD Centre, Douglas Mental Health University Institute, McGill University, Montréal, Québec, Canada"
+
+  - family-names: Caciagli
+    given-names: Lorenzo
+    orcid: https://orcid.org/0000-0001-7189-9699
+    affiliation: "UCL Queen Square Institute of Neurology, University College London, London, UK"
+
+  - family-names: Koepp
+    given-names: Matthias J.
+    orcid: https://orcid.org/0000-0002-4277-8000
+    affiliation: "UCL Queen Square Institute of Neurology, University College London, London, UK"
+
+  - family-names: Bernasconi
+    given-names: Andrea
+    affiliation: "McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University, Montreal, Québec, Canada"
+
+  - family-names: Bernasconi
+    given-names: Neda
+    affiliation: "McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University, Montreal, Québec, Canada"
+
+  - family-names: Bernhardt
+    given-names: Boris C.
+    orcid: https://orcid.org/0000-0001-9256-6041
+    affiliation: "McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University, Montreal, Québec, Canada"
+
+preferred-citation:
+  type: article
+  title: "IN-VIVO EVIDENCE FOR INCREASED TAU DEPOSITION IN TEMPORAL LOBE EPILEPSY"
+  authors:
+    - family-names: Cruces
+      given-names: Raul R.
+
+    - family-names: Bernhardt
+      given-names: Boris C.
+
+  journal: "bioRxiv"
+  year: 2026

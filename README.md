@@ -12,6 +12,8 @@
 
 **Data repository:** avaliable at [OSF](https://osf.io/ct3gw).  
 
+**Code repository:** avaliable at [code ocean](https://codeocean.com/capsule/4623457/tree).  
+
 **Keywords:** Temporal lobe epilepsy | 18F-MK-6240 | tauopathy | neuroimaging | neuroinflammation
  
 **Short title:** *In-vivo findings of increased tau uptake in TLE*
@@ -49,9 +51,9 @@ This repository contains the code and data processing pipelines to replicate the
 
 Temporal lobe epilepsy (TLE), the most common pharmaco-resistant epilepsy in adults, has been linked to structural brain changes extending beyond the mesiotemporal areas. While not traditionally viewed as a neurodegenerative disorder, recent ex-vivo studies have shown elevated levels of misfolded tau protein in TLE. 
 
-This study investigated tau deposition in TLE patients using the in-vivo PET tracer [18F]MK-6240. We studied 28 TLE patients and 28 healthy controls to assess tau uptake and its relationship with brain connectivity, clinical variables, and cognitive function. 
+This study investigated tau deposition in TLE patients using the in-vivo PET tracer [18F]MK-6240. We studied 28 TLE patients and 28 healthy controls to assess tau uptake and its relationship with brain connectivity, clinical variables, and cognitive function alongside post-surgical tissue from a subset of patients. 
 
-Compared to controls, TLE patients exhibited markedly increased [18F]MK-6240 uptake in bilateral superior and medial temporal regions and the parietal cortex, with tau accumulation following regional functional and structural connectivity and cognitive impairment. 
+Compared to controls, TLE patients exhibited markedly increased [18F]MK-6240 uptake in bilateral superior and medial temporal regions and the parietal cortex, with tau accumulation following regional functional and structural connectivity and cognitive impairment. Immunohistochemistry analysis confirmed variable phosphorylated tau staining in 5/6 operated cases with available specimens. 
 
 These findings suggest that tau accumulation contributes to cognitive decline observed in TLE, supporting a potential role of tau in epilepsy-related neurodegeneration.
 
