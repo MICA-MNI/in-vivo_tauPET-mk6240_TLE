@@ -95,7 +95,7 @@ which are all components of the SUV calculation, cancel each other out.
 | `handedness`        | Hand preference (Right, Left, Ambidextrous).                         |
 | `language`          | Primary language spoken by the participant.                          |
 | `group`             | Diagnostic group (Healthy, Patient).                                 |
-| `mk6240.mean`       | Whole-brain mean SUVR of 18F-MK6240.                                 |
+| `mk6240.mean`       | Cortical mean SUVR of 18F-MK6240.                                    |
 | `epilepsy.class`    | Epilepsy classification (clinical subtype).                          |
 | `origin`            | Epilepsy etiology (e.g., mTLE, TLE, unclear).                        |
 | `lateralization`    | Laterality of the seizure onset in TLE (R, L).                       |
